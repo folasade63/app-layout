@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  color: white;
+  font-weight: 600;
+}
+nav {
+  position: absolute;
+  width: 70px;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: #343a40;
+  font-size: 24px;
+  padding: 20px 10px 0 10px;
+}
+menu {
+  background-color: #7048e8;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px 20px 90px;
+}
+.button-container {
+  display: flex;
+  gap: 15px;
+}
+button {
+  color: white;
+  border: none;
+  font-size: 18px;
+  padding: 10px;
+}
+.button-container button {
+  background-color: #5f3dc4;
+}
+menu > button {
+  background-color: red;
+}
+main {
+  padding-left: 70px;
+  display: flex;
+  color: black;
+  width: 100%;
+  font-size: 24px;
+}
+.emails {
+  width: 400px;
+  height: 90vh;
+  background-color: #e9ecef;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+  overflow: scroll;
+}
+.emails div {
+  width: 80%;
+  flex-basis: 70px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #adb5bd;
+}
+.emails div:first-child {
+  margin-top: 400px;
+}
+.email-view {
+  width: 50%;
+  text-align: center;
+  padding-top: 20px;
+}
+.info {
+  flex-grow: 1;
+  text-align: center;
+  background-color: #e9ecef;
+  padding-top: 20px;
+}
